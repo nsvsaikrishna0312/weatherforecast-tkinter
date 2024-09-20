@@ -3,7 +3,7 @@ from tkinter import *
 import PySimpleGUI as sg
 
 def get_weather_data(location):
-    api_key = '0f348c72acbbdcd0fd010e046069ea69'
+    api_key = '' #give the api key
     base_url = 'http://api.openweathermap.org/data/2.5/weather?'
     complete_url = base_url + 'appid=' + api_key + '&q=' + location
 
